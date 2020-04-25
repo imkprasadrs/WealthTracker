@@ -4,7 +4,7 @@ import com.cleanarchitecture.android.application.injection.module.ApplicationMod
 import com.cleanarchitecture.android.application.injection.module.NetworkModule
 import com.cleanarchitecture.android.application.injection.module.RetrofitModule
 import com.cleanarchitecture.android.application.injection.module.StocksModule
-import com.cleanarchitecture.android.data.account.CleanArchitectureApplication
+import com.cleanarchitecture.android.data.account.WealthTrackerApplication
 import com.cleanarchitecture.android.domain.portfolio.PortfolioRepository
 import dagger.Component
 import javax.inject.Singleton
@@ -20,7 +20,7 @@ import javax.inject.Singleton
     )
 )
 interface ApplicationComponent {
-    fun inject(application: CleanArchitectureApplication)
+    fun inject(application: WealthTrackerApplication)
 
     fun getPortfolioRepo(): PortfolioRepository
 }

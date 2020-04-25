@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.cleanarchitecture.android.application.injection.component.ActivityComponent
 import com.cleanarchitecture.android.application.injection.component.DaggerActivityComponent
-import com.cleanarchitecture.android.data.account.CleanArchitectureApplication
+import com.cleanarchitecture.android.data.account.WealthTrackerApplication
 
 /**
  *  Created By Krishna Prasad
@@ -17,7 +17,7 @@ abstract class BaseActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val activityComponent = DaggerActivityComponent.builder()
-            .applicationComponent(CleanArchitectureApplication.applicationComponent)
+            .applicationComponent(WealthTrackerApplication.applicationComponent)
             .build()
 
         inject(activityComponent)

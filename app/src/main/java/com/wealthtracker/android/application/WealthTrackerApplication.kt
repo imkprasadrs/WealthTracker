@@ -5,7 +5,7 @@ import com.cleanarchitecture.android.application.injection.component.Application
 import com.cleanarchitecture.android.application.injection.component.DaggerApplicationComponent
 import com.cleanarchitecture.android.application.injection.module.ApplicationModule
 
-class CleanArchitectureApplication : Application() {
+class WealthTrackerApplication : Application() {
 
     companion object {
         lateinit var applicationComponent: ApplicationComponent
