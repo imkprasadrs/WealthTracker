@@ -1,11 +1,11 @@
-package com.cleanarchitecture.android.presentation.portfolio.presenter
+package com.wealthtracker.android.presentation.portfolio.presenter
 
-import com.cleanarchitecture.android.application.annotation.PresenterObservable
-import com.cleanarchitecture.android.application.annotation.PresenterSubscription
-import com.cleanarchitecture.android.application.annotation.SubscribeOnResume
-import com.cleanarchitecture.android.domain.portfolio.model.CompanyDetails
-import com.cleanarchitecture.android.domain.portfolio.usecase.GetCompaniesBasedOnIndiaUseCase
-import com.cleanarchitecture.android.presentation.base.Presenter
+import com.wealthtracker.android.application.annotation.PresenterObservable
+import com.wealthtracker.android.application.annotation.PresenterSubscription
+import com.wealthtracker.android.application.annotation.SubscribeOnResume
+import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
+import com.wealthtracker.android.domain.portfolio.usecase.GetCompaniesBasedOnIndiaUseCase
+import com.wealthtracker.android.presentation.base.Presenter
 import io.reactivex.Single
 import io.reactivex.disposables.Disposables
 import javax.inject.Inject

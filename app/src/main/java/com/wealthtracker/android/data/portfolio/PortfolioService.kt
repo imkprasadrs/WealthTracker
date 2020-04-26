@@ -1,14 +1,14 @@
-package com.cleanarchitecture.android.data.account
+package com.wealthtracker.android.data.account
 
-import com.cleanarchitecture.android.data.portfolio.mapToCompanyDetails
-import com.cleanarchitecture.android.data.portfolio.mapToStockDetails
-import com.cleanarchitecture.android.data.portfolio.model.Company
-import com.cleanarchitecture.android.data.portfolio.model.StockPrice
-import com.cleanarchitecture.android.domain.exception.HttpCallFailureException
-import com.cleanarchitecture.android.domain.exception.NoNetworkException
-import com.cleanarchitecture.android.domain.exception.ServerUnreachableException
-import com.cleanarchitecture.android.domain.portfolio.PortfolioRepository
-import com.cleanarchitecture.android.domain.portfolio.model.CompanyDetails
+import com.wealthtracker.android.data.portfolio.mapToCompanyDetails
+import com.wealthtracker.android.data.portfolio.mapToStockDetails
+import com.wealthtracker.android.data.portfolio.model.Company
+import com.wealthtracker.android.data.portfolio.model.StockPrice
+import com.wealthtracker.android.domain.exception.HttpCallFailureException
+import com.wealthtracker.android.domain.exception.NoNetworkException
+import com.wealthtracker.android.domain.exception.ServerUnreachableException
+import com.wealthtracker.android.domain.portfolio.PortfolioRepository
+import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
 import io.reactivex.Single
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
@@ -18,7 +18,7 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 import java.net.SocketTimeoutException
 import java.net.UnknownHostException
-import com.cleanarchitecture.android.domain.portfolio.model.StockPrice as DomainStockPrice
+import com.wealthtracker.android.domain.portfolio.model.StockPrice as DomainStockPrice
 
 class PortfolioService(val retrofit: Retrofit) : PortfolioRepository {
 

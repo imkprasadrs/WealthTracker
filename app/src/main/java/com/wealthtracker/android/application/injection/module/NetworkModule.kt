@@ -1,4 +1,4 @@
-package com.cleanarchitecture.android.application.injection.module
+package com.wealthtracker.android.application.injection.module
 
 import com.wealthtracker.android.BuildConfig
 import dagger.Module
@@ -12,7 +12,6 @@ import retrofit2.converter.gson.GsonConverterFactory
 import java.util.concurrent.TimeUnit
 import javax.inject.Named
 import javax.inject.Singleton
-
 
 /**
  *  Created By Krishna Prasad

@@ -1,4 +1,4 @@
-package com.cleanarchitecture.android.application.injection.module
+package com.wealthtracker.android.application.injection.module
 
 import dagger.Module
 import dagger.Provides

@@ -1,4 +1,4 @@
-package com.cleanarchitecture.android.domain.exception
+package com.wealthtracker.android.domain.exception
 
 /**
  *  Created By Krishna Prasad

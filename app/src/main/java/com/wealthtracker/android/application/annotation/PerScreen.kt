@@ -1,4 +1,4 @@
-package com.cleanarchitecture.android.application.annotation
+package com.wealthtracker.android.application.annotation
 
 import javax.inject.Scope
 

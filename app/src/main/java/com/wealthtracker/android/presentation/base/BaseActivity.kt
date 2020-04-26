@@ -1,10 +1,10 @@
-package com.cleanarchitecture.android.presentation.base
+package com.wealthtracker.android.presentation.base
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.cleanarchitecture.android.application.injection.component.ActivityComponent
-import com.cleanarchitecture.android.application.injection.component.DaggerActivityComponent
-import com.cleanarchitecture.android.data.account.WealthTrackerApplication
+import com.wealthtracker.android.application.injection.component.ActivityComponent
+import com.wealthtracker.android.application.injection.component.DaggerActivityComponent
+import com.wealthtracker.android.data.account.WealthTrackerApplication
 
 /**
  *  Created By Krishna Prasad

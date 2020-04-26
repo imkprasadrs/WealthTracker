@@ -1,4 +1,4 @@
-package com.cleanarchitecture.android.data.account
+package com.wealthtracker.android.data.account
 
 /**
  *  Created By Krishna Prasad
