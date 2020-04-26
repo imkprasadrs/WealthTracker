@@ -1,28 +1,21 @@
-package com.wealthtracker.android.presentation.portfolio.view
+package com.wealthtracker.android.presentation.startup.view
 
 import android.os.Bundle
-import androidx.navigation.ui.AppBarConfiguration
 import com.wealthtracker.android.R
 import com.wealthtracker.android.application.injection.component.ActivityComponent
 import com.wealthtracker.android.presentation.base.BaseActivity
-import com.wealthtracker.android.presentation.portfolio.presenter.DashboardPresenter
+import com.wealthtracker.android.presentation.base.Presenter
+import com.wealthtracker.android.presentation.startup.presenter.SplashPresenter
 import javax.inject.Inject
 
-/**
- *  Created By Krishna Prasad
- */
-class DashboardActivity : BaseActivity(), DashboardPresenter.Display, DashboardPresenter.Router {
-
-    private lateinit var appBarConfiguration: AppBarConfiguration
+class SplashActivity : BaseActivity(), SplashPresenter.Display, SplashPresenter.Router {
 
     @Inject
-    override lateinit var presenter: DashboardPresenter
+    override lateinit var presenter: SplashPresenter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-
-        presenter.getCompanyNames("tata")
     }
 
     override fun inject(activityComponent: ActivityComponent) {

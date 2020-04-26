@@ -2,6 +2,7 @@ package com.wealthtracker.android.application.injection.component
 
 import com.wealthtracker.android.application.annotation.PerScreen
 import com.wealthtracker.android.presentation.portfolio.view.DashboardActivity
+import com.wealthtracker.android.presentation.startup.view.SplashActivity
 import dagger.Component
 
 /**
@@ -10,7 +11,6 @@ import dagger.Component
 @PerScreen
 @Component(dependencies = [ApplicationComponent::class])
 interface ActivityComponent {
-
-    // Portfolio
     fun inject(activity: DashboardActivity)
+    fun inject(activity: SplashActivity)
 }
