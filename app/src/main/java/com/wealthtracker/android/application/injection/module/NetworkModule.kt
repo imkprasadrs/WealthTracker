@@ -13,7 +13,6 @@ import java.util.concurrent.TimeUnit
 import javax.inject.Named
 import javax.inject.Singleton
 
-
 /**
  *  Created By Krishna Prasad
  */

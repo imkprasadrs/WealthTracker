@@ -1,8 +1,8 @@
 package com.wealthtracker.android.data.portfolio
 
-import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
 import com.wealthtracker.android.data.portfolio.model.Company
 import com.wealthtracker.android.data.portfolio.model.StockPrice
+import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
 import com.wealthtracker.android.domain.portfolio.model.StockPrice as DomainStockPrice
 
 /**

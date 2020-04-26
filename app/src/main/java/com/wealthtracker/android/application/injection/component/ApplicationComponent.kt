@@ -9,7 +9,6 @@ import com.wealthtracker.android.domain.portfolio.PortfolioRepository
 import dagger.Component
 import javax.inject.Singleton
 
-
 /**
  *  Created By Krishna Prasad
  */
