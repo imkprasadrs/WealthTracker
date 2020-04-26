@@ -1,5 +1,9 @@
 package com.wealthtracker.android
 
+import org.jetbrains.spek.api.Spek
+import org.jetbrains.spek.api.dsl.context
+import org.jetbrains.spek.api.dsl.describe
+import org.jetbrains.spek.api.dsl.it
 import org.junit.Test
 
 import org.junit.Assert.*
@@ -9,9 +13,13 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest {
-    @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
-    }
-}
+class ExampleUnitTest : Spek(
+    {
+        describe("hellooo") {
+            context("hello hello") {
+                it("hello") {
+
+                }
+            }
+        }
+    })
