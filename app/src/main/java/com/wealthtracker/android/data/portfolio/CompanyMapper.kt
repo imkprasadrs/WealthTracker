@@ -1,9 +1,9 @@
-package com.cleanarchitecture.android.data.portfolio
+package com.wealthtracker.android.data.portfolio
 
-import com.cleanarchitecture.android.data.portfolio.model.Company
-import com.cleanarchitecture.android.data.portfolio.model.StockPrice
-import com.cleanarchitecture.android.domain.portfolio.model.CompanyDetails
-import com.cleanarchitecture.android.domain.portfolio.model.StockPrice as DomainStockPrice
+import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
+import com.wealthtracker.android.data.portfolio.model.Company
+import com.wealthtracker.android.data.portfolio.model.StockPrice
+import com.wealthtracker.android.domain.portfolio.model.StockPrice as DomainStockPrice
 
 /**
  *  Created By Krishna Prasad

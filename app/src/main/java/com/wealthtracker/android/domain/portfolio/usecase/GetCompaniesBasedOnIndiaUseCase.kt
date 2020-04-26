@@ -1,7 +1,7 @@
-package com.cleanarchitecture.android.domain.portfolio.usecase
+package com.wealthtracker.android.domain.portfolio.usecase
 
-import com.cleanarchitecture.android.domain.portfolio.PortfolioRepository
-import com.cleanarchitecture.android.domain.portfolio.model.CompanyDetails
+import com.wealthtracker.android.domain.portfolio.PortfolioRepository
+import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
 import io.reactivex.Single
 import javax.inject.Inject
 

@@ -1,7 +1,7 @@
-package com.cleanarchitecture.android.domain.portfolio
+package com.wealthtracker.android.domain.portfolio
 
-import com.cleanarchitecture.android.domain.portfolio.model.CompanyDetails
-import com.cleanarchitecture.android.domain.portfolio.model.StockPrice
+import com.wealthtracker.android.domain.portfolio.model.CompanyDetails
+import com.wealthtracker.android.domain.portfolio.model.StockPrice
 import io.reactivex.Single
 
 interface PortfolioRepository {

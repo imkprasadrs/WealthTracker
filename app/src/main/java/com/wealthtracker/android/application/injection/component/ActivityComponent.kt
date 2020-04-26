@@ -1,6 +1,6 @@
-package com.cleanarchitecture.android.application.injection.component
+package com.wealthtracker.android.application.injection.component
 
-import com.cleanarchitecture.android.application.annotation.PerScreen
+import com.wealthtracker.android.application.annotation.PerScreen
 import com.wealthtracker.android.presentation.portfolio.view.DashboardActivity
 import dagger.Component
 

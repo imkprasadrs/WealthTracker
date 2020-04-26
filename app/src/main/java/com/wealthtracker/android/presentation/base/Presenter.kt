@@ -1,8 +1,8 @@
-package com.cleanarchitecture.android.presentation.base
+package com.wealthtracker.android.presentation.base
 
-import com.cleanarchitecture.android.application.annotation.PresenterObservable
-import com.cleanarchitecture.android.application.annotation.PresenterSubscription
-import com.cleanarchitecture.android.application.annotation.SubscribeOnResume
+import com.wealthtracker.android.application.annotation.PresenterObservable
+import com.wealthtracker.android.application.annotation.PresenterSubscription
+import com.wealthtracker.android.application.annotation.SubscribeOnResume
 import io.reactivex.disposables.Disposable
 import java.lang.reflect.Field
 import java.lang.reflect.Method

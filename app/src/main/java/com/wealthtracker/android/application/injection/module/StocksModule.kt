@@ -1,7 +1,7 @@
-package com.cleanarchitecture.android.application.injection.module
+package com.wealthtracker.android.application.injection.module
 
-import com.cleanarchitecture.android.data.account.PortfolioService
-import com.cleanarchitecture.android.domain.portfolio.PortfolioRepository
+import com.wealthtracker.android.data.account.PortfolioService
+import com.wealthtracker.android.domain.portfolio.PortfolioRepository
 import dagger.Module
 import dagger.Provides
 import retrofit2.Retrofit

@@ -1,4 +1,4 @@
-package com.cleanarchitecture.android.data.portfolio.model
+package com.wealthtracker.android.data.portfolio.model
 
 /**
  *  Created By Krishna Prasad

@@ -1,9 +1,9 @@
-package com.cleanarchitecture.android.data.account
+package com.wealthtracker.android.data.account
 
 import android.app.Application
-import com.cleanarchitecture.android.application.injection.component.ApplicationComponent
-import com.cleanarchitecture.android.application.injection.component.DaggerApplicationComponent
-import com.cleanarchitecture.android.application.injection.module.ApplicationModule
+import com.wealthtracker.android.application.injection.component.ApplicationComponent
+import com.wealthtracker.android.application.injection.component.DaggerApplicationComponent
+import com.wealthtracker.android.application.injection.module.ApplicationModule
 
 class WealthTrackerApplication : Application() {
 
