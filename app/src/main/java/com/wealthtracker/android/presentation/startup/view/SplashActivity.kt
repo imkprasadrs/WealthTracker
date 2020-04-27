@@ -16,6 +16,7 @@ class SplashActivity : BaseActivity(), SplashPresenter.Display, SplashPresenter.
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
+        presenter.pageOpened()
     }
 
     override fun inject(activityComponent: ActivityComponent) {
