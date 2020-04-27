@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "823932652080",
+    "firebase_url": "https://wealthtracker-3d7a0.firebaseio.com",
+    "project_id": "wealthtracker-3d7a0",
+    "storage_bucket": "wealthtracker-3d7a0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823932652080:android:453b6a18432666a0c93bf5",
+        "android_client_info": {
+          "package_name": "com.wealthtracker.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823932652080-guj0i449uf4e6aoodd5atnfl867fkmrr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wealthtracker.android",
+            "certificate_hash": "38bfbe266b99d53cb379e6833e4884cd2671d832"
+          }
+        },
+        {
+          "client_id": "823932652080-fatrvfcuv9t7ucintvvj6io2ofhqrtsb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXjlGGHuFqkEF3cJ35pVO9ojL70BQ1Z5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823932652080-fatrvfcuv9t7ucintvvj6io2ofhqrtsb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -3,6 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'de.mannodermaus.android-junit5'
+apply plugin: 'com.google.gms.google-services'
 
 android {
     compileSdkVersion 29
@@ -84,4 +85,7 @@ dependencies {
     testImplementation "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion"
     testImplementation 'com.nhaarman:mockito-kotlin:1.5.0'
     testImplementation 'junit:junit:4.12'
+
+    // Firebase
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
 }
